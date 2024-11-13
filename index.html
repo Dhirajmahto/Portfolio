@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <a href="/">Dhiraj Kumar</a>
+        </div>
+        <div class="right">
+          <a href="https://github.com/Dhirajmahto" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+          </a>
+          <a href="https://www.linkedin.com/in/dhirajkumar123/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+          </a>
+          <a href="mailto:dhirajkumar7209535435@gmail.com" >
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Dhiraj👋</h2>
+                <p>I am an aspiring Computer Science Engineer, currently pursuing a B.Tech in CSE at Centurion University (graduating in 2026). With skills in programming languages such as C, Java, and Python, and expertise in web technologies like HTML and SQL, I have a strong foundation in data structures and algorithms. I am eager to apply my knowledge through internships and collaborations, and passionate about leveraging technology to solve real-world challenges. Let’s connect!
+                </p>
+
+                <div class="links">
+                    <a href="#skill">
+                        <i class="fa-solid fa-code"></i>
+                        <span>skill</span>
+                    </a>
+                    <a href="#Testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimoony</span>
+                    </a>
+                    <a href="Contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="Dhiraj_image.jpg" alt="Dhiraj Kumar headshot">
+            </div>
+        </section>
+        <!--Skill-->
+        <section id="skills" class="skills-section">
+            <h2>skills</h2>
+            <div class="text">
+                I am proficient in HTML, CSS, and JavaScript, with hands-on experience in building responsive websites. I also have expertise in Node.js for backend development and React.js for creating dynamic, user-friendly front-end interfaces. I am passionate about leveraging these technologies to create seamless, interactive web applications.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3291/3291670.png" alt="">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="https://logowik.com/content/uploads/images/css-icon5555.logowik.com.webp" alt="">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png" alt="">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="https://media.sketchfab.com/models/d0ef6f33bf174a79b5a831d6c003bad9/thumbnails/7ac97d368bc24ea9849f3b2ce0517c0c/44100f70762c4a75a9c19b05be46c59c.jpeg" alt="">
+                    <span>Node.js</span>
+                </div>
+                <div class="cell">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlvcX5iwMd91mNJSonCpevIeUkrN3LbYhIG9VmT7zlF5cK0SlB9A1UE1xrbdcfqBLxfoQ&usqp=CAU" alt="">
+                    <span>React.js</span>
+                </div>
+            </div>
+        </section>
+        <!--Testimony-->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="person-details">
+                    <img src="leptop_image.jpg" alt="">
+                    <p>Dhiraj Kumar</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="text">
+                    I am a dedicated and enthusiastic learner, always eager to improve my skills and tackle new challenges. My passion for technology drives me to create innovative solutions and collaborate effectively. I strive for excellence in every project and am committed to delivering high-quality results in all endeavors.
+                </div>
+            </div>
+        </section>
+        <!--Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Feel free to reach out if you'd like to collaborate, discuss opportunities, or share ideas. I am always open to connecting with like-minded professionals and learners. Whether it’s for a project or mentorship, I’d love to hear from you and explore potential growth together. Let’s connect!?
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
